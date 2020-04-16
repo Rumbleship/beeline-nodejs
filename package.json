@@ -3,7 +3,7 @@
   "description": "automatic instrumentation for honeycomb.io",
   "author": "support@honeycomb.io",
   "license": "Apache-2.0",
-  "version": "1.8.3",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/honeycombio/beeline-nodejs.git"
@@ -35,6 +35,8 @@
     "jest": "^24.9.0",
     "jest-in-case": "^1.0.2",
     "lint-staged": "^8.1.5",
+    "pg": "^7.14.0",
+    "pg-query-stream": "^2.0.1",
     "prettier": "^1.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -44,7 +46,7 @@
   "dependencies": {
     "array-flatten": "^2.1.2",
     "debug": "^4.1.1",
-    "libhoney": "^2.0.1",
+    "libhoney": "^2.0.2",
     "on-headers": "^1.0.2",
     "shimmer": "^1.2.1",
     "uuid": "^3.3.2"
